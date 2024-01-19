@@ -217,8 +217,9 @@ class _CalculatorBodyState extends State<CalculatorBody> {
           ),
         ),
         Positioned(
-          top: size * 25,
-          right: -10,
+
+          top: size * 20,
+          right: -15,
           child: PopupMenuButton(
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.all(
